@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;gomake&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../weekend" />
+      <root url="file://$PROJECT_DIR$/../../../testHttp" />
+      <root url="file://$PROJECT_DIR$/../../../testGo" />
+      <root url="file://$PROJECT_DIR$/../../../layering" />
+      <root url="file://$PROJECT_DIR$/../../../go-cleanarchitecture" />
+      <root url="file://$PROJECT_DIR$/../../../acme3" />
+      <root url="file://$PROJECT_DIR$/../../../code.google.com" />
+      <root url="file://$PROJECT_DIR$/../../../reactJWT" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../testProgres" />
+      <root url="file://$PROJECT_DIR$/../../../goWeb" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../weekend" />
+      <root url="file://$PROJECT_DIR$/../../../testHttp" />
+      <root url="file://$PROJECT_DIR$/../../../testGo" />
+      <root url="file://$PROJECT_DIR$/../../../layering" />
+      <root url="file://$PROJECT_DIR$/../../../go-cleanarchitecture" />
+      <root url="file://$PROJECT_DIR$/../../../acme3" />
+      <root url="file://$PROJECT_DIR$/../../../code.google.com" />
+      <root url="file://$PROJECT_DIR$/../../../reactJWT" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../testProgres" />
+      <root url="file://$PROJECT_DIR$/../../../goWeb" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
