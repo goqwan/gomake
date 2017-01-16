@@ -2,11 +2,13 @@
 BINARY=gomake
 
 # These are the values we want to pass for VERSION and BUILD
-VERSION=1.0.0
+VERSION=$(ver)
 BUILD=`git rev-parse HEAD`
+GIT_TAG=`git describe --tags`
+BUILD_TIME=`date +%FT%T%z`
 
 # Setup the -ldflags option for go build here, interpolate the variable values
-LDFLAGS=-ldflags "-X main.Version=${VERSION} -X main.Build=${BUILD}"
+LDFLAGS=-ldflags "-X main.Version=${VERSION} -X main.BuildTime=${BUILD_TIME} -X main.GitTag=${GIT_TAG} -X main.Build=${BUILD}"
 
 # Builds the project
 build:
